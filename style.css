@@ -1,44 +1,47 @@
+/*1528 x 746.4 pixels to work with on this laptop*/
 body
 {
-    background-color:#CFBEB6;
+    background-color:#ffffff;
+    margin:0px;
+    padding:0px;
+    overflow:scroll;
+    overflow-x:hidden;
 }
 header
 {
-    height:89px;
-    width:1269px;
-    padding:1px;
-    padding-top:5px;
-    background-color:#EEE8E6;
-    margin-bottom:7px;
-    border-radius: 5px;
+    width:84vw;
+    height:15vh;
+    background-color:#fff;
     float:right;
+    /* border-bottom:2px dashed #ccc; */
+}
+header > img 
+{
+    max-height: 100%;
+    min-width:100%;
+    padding:0px;
+}
+#newest
+{
+    width:80vw;
+    height:10vh;
+    background-color:#630;
+    float:right;
+    margin-right:1.5vw;
+    margin-left:2.5vw;
+    text-align:center;
 }
 nav
 {
-    height:714px;
-    width:215px;
-    padding-left:15px;
-    padding-top:15px;
-    background-color:#5A3A31;
-    border-radius: 5px;
-    float: left;
-    overflow:auto;
+    background-color:#996633;
+    height:200vh;
+    width:15vw;
 }
 article
 {
-    height: 555px;
-    width: 1270px;
-    margin-left:241px;
-    background-color:#EEE8E6;
-    border-radius: 5px;
-    overflow:auto;
+    color:#fff;
 }
 footer
 {
-    height:65px;
-    width: 1270px;
-    margin-top:7px;
-    border-radius:5px;
-    background-color:#EEE8E6;
-    margin-left:241px;
+    color:#fff;
 }
