@@ -34,6 +34,7 @@ body
     margin:0px;
     padding:0px;
     overflow-x:hidden;
+    overflow-y:hidden;
 }
 header
 {
@@ -46,7 +47,7 @@ header
     background-color:#fff;
     /* border-bottom:2px dashed #ccc; */
 }
-#newest
+#headerBar
 {
     width:80vw;
     height:9vh;
@@ -62,20 +63,34 @@ header
 nav
 {
     background-color:#630;
-    height:198vh;
+    height:98vh;
     width:14.5vw;
     margin-top:1vh;
     border-radius:5px;
     margin-left:0.5vw;
     margin-bottom:1vh;
+    float:left;
+    position:fixed;
 }
-article
+#sec1
 {
-    color:blue;
-    margin-left:16vw;
-    width:84.25vw;
-    height:100vh;
-
+    background-color:#ddd;
+    width:80vw;
+    height:60vh;
+    float:right;
+    margin-right:2.125vw;
+    margin-left:2.125vw;
+    border-radius:5px;
+}
+#sec2
+{
+    background-color:#ddd;
+    width:80vw;
+    height:50vh;
+    float:right;
+    margin-right:2.125vw;
+    margin-left:2.125vw;
+    border-radius:5px;
 }
 footer
 {
